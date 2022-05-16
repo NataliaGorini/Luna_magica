@@ -1,0 +1,13 @@
+.app-header{
+    /*background-color: #B88C8D;
+    color: #F4DCD8;
+    color: #AC8E68;*/
+    color: #353130;
+    background-color: #F7F4ED;
+    background-image: url('../../../public/logo_header_pink.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
