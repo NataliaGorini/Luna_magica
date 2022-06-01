@@ -3,9 +3,12 @@ import './header.css';
 
 function Header(){
     return(
-        <header className="app-header">            
-            <h1>Luna Mágica</h1>
-            <p>Astrología, tarot y otras posiones</p>
+        <header className="app-header">
+            <img className="app--img" src="/logo_header_pink.jpg"></img> 
+            <div className="app--div">
+                <h1>Luna Mágica</h1>
+                <h2>- ASTROLOGIA, TAROT Y OTRAS POSIONES -</h2>
+            </div>           
         </header>
     )
 }

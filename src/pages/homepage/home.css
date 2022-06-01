@@ -1,0 +1,10 @@
+.home--btn{
+    width:30%;
+    align-self: center;
+    margin:30px;
+    color:#353130;
+    border: 1px solid #AA8C66;
+}
+.home--btn:hover{
+    color:#F7F4ED
+}

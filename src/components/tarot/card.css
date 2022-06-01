@@ -1,0 +1,52 @@
+.card--container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding:10px;
+    align-items: center;
+}
+.card--img{
+    padding:10px;
+    height: 25%;
+    margin-bottom: 10px;
+}
+.card--h3{
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    background-color: #F3DBD7;
+    border-radius: 5px;
+}
+.card--h3::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 1px;
+    background:  #AA8C66;
+    margin:5px;
+    top:10px;
+    position: relative;
+}
+.card--h3::after {
+    content: "";
+    display: block;
+    top:10px;
+    position: relative;
+    width: 20px;
+    height: 1px;
+    background:  #AA8C66;
+    margin:5px;
+}
+h4{
+    align-self: flex-start;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 10px 3px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.card--p{
+    margin-right:10px;
+    margin-left:10px;
+}

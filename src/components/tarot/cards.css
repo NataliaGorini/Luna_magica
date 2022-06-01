@@ -1,0 +1,29 @@
+.cards--btn{
+    width:15%;
+    align-self: center;
+    margin:10px;
+    color:#353130;
+    border: 1px solid #AA8C66;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.cards--btn:hover{
+    position: relative;
+    color:#F7F4ED
+}
+.cards--container{
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-size: 1em;
+    font-weight: 300;
+}
+.cards--section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

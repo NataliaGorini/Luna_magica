@@ -1,0 +1,65 @@
+.sign--container{
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+.sign--img{
+    width:50%;
+    border-radius: 3px;
+    margin:10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.sign--h3{
+    font-family: 'Montez', cursive;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+}
+.sign--h4{
+    font-size: 1em;
+    font-weight: 300;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-left:0;
+}
+span{
+    font-weight: 400;
+
+}
+.sign--h3::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background:  #AA8C66;
+    margin:5px;
+    top:15px;
+    position: relative;
+}
+.sign--h3::after {
+    content: "";
+    display: block;
+    top:15px;
+    position: relative;
+    width: 40px;
+    height: 1px;
+    background:  #AA8C66;
+    margin:5px;
+}
+.sign--btn{
+    width:30%;
+    align-self: center;
+    margin:10px;
+    color:#353130;
+    border: 1px solid #AA8C66;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.sign--btn:hover{
+    color:#F7F4ED
+}

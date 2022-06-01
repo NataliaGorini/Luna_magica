@@ -4,10 +4,32 @@
     color: #AC8E68;*/
     color: #353130;
     background-color: #F7F4ED;
-    background-image: url('../../../public/logo_header_pink.jpg');
+    /*background-image: url('../../../public/logo_header_pink.jpg');*/
     background-size: cover;
     display: flex;
     flex-direction: column;
     height: 50vh;
+    align-items: center;
+    justify-content: flex-end;
+}
+.app--div{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(233,160,173,0.5);
+    position: absolute;
+
+}
+.app--img{
+    width:60%;
+}
+.app--div > h1{
+    font-family: 'Montez', cursive;
+    font-size: 5.5em;
+}
+.app--div > h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1em;
 }
 
