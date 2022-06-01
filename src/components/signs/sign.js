@@ -5,7 +5,7 @@ export default function Sign(props){
     return(     
         <div className="sign--container">
             <h3 className="sign--h3">{props.name}</h3>
-            <img className="sign--img" src={props.image}/>
+            <img className="sign--img" src={props.image} alt={`zodiac sign ${props.name}`}/>
             <h4 className="sign--h4"><span>Element: </span>{props.element}</h4>
             <h4 className="sign--h4"><span>Regent: </span>{props.regent}</h4>
             <h4 className="sign--h4"><span>Color: </span>{props.color}</h4>
